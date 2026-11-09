@@ -1,7 +1,7 @@
 /* Squadron Resource Manager. No web requests, tracking, logins, or remote services. */
 (() => {
 'use strict';
-const APP_VERSION = '1.4';
+const APP_VERSION = '1.4.1';
 const STORAGE_KEY = 'pa035-squadron-resources-offline-v1';
 const isNative = () => !!window.Device; // true inside the Android APK
 const names = {duty:'Duty Assignment Report',qualifications:'All Qualification Listing',tracks:'Specialty Track Report',cpp:'Cadet Protection Report',contacts:'Member Contact Report'};

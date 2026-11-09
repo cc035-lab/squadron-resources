@@ -5,7 +5,7 @@ The web version is the same app as the Android APK. It runs in Safari (iPhone/iP
 ## One-time: put it on GitHub Pages (about 10 minutes, use a computer)
 
 1. Sign in to GitHub (cc035-lab) and click **New repository**. Name it `squadron-resources`, choose **Public** (free GitHub Pages requires it), and click **Create repository**.
-2. Click **uploading an existing file**. Unzip `Squadron_Resources_Web_v1.4.zip` and drag **everything inside it** (including the `icons` and `vendor` folders) into the page. Click **Commit changes**.
+2. Click **uploading an existing file**. Unzip `Squadron_Resources_Web_v1.4.zip` and select **all the files inside it** (there are no folders) and drag them into the page. Click **Commit changes**.
 3. Open **Settings → Pages**. Under *Build and deployment*, set Source to **Deploy from a branch**, Branch **main**, folder **/ (root)**, and click **Save**.
 4. After a minute or two the site is at: `https://cc035-lab.github.io/squadron-resources/`
 
