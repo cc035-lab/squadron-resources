@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="color-scheme" content="light"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'none'; worker-src 'self'; manifest-src 'self'; form-action 'none'; base-uri 'none'; frame-src 'none'"/><title>Squadron Resources</title>
+<meta name="theme-color" content="#102f50"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="Squadron"/>
+<meta name="format-detection" content="telephone=no"/>
+<link rel="stylesheet" href="styles.css"/></head>
+<body>
+<header class="top"><div class="brandmark" aria-hidden="true">CAP</div><div class="brandtext"><strong>Squadron Resources</strong><small id="brandSub">Quakertown Composite Squadron 904</small></div><span class="offline">OFFLINE</span></header>
+<main>
+<section class="intro"><div class="eyebrow" id="eyebrow">PA-035 · LOCAL RESOURCE LOOKUP</div><h1 id="heading">Resource overview</h1><p id="subtitle">Duty assignments, qualifications, specialty tracks, and cadet protection in one place.</p></section>
+<nav class="tabs" aria-label="Sections"><button data-view="home" class="active">Home</button><button data-view="members">Members</button><button data-view="duties">Duties</button><button data-view="qualifications">Qualifications</button><button data-view="tracks">Specialty Tracks</button><button data-view="cpp">Cadet Protection</button><button data-view="expiring">Expiring</button><button data-view="import">Update Reports</button><button data-view="settings">Settings</button></nav>
+<section id="feedback" aria-live="polite"></section>
+<section id="content"></section>
+</main>
+<footer>Stored only on this device · Last imported reports are not live eServices records.</footer>
+<div id="modalBackdrop" class="modal-backdrop hidden"><div role="dialog" aria-modal="true" class="modal" id="modalContent"></div></div>
+<script src="vendor/fflate.min.js"></script>
+<script src="parsers.js"></script>
+<script src="app.js"></script>
+</body></html>
